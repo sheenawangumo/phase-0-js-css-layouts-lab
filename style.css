@@ -2,7 +2,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-
   padding: 2em;
 }
 .cat-breed {
@@ -25,9 +24,9 @@
   margin: 0.5em 0;
 }
 .cat-breed p {
-  margin: 0.5em 0 lem;
+  margin: 0.5em 0 1em;
 }
-@media (max-width: 768px) {
+@media screen and (max-width: 100%) {
   .cat-container {
     flex-direction: column;
     align-items: center;
